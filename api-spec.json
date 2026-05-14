@@ -1,0 +1,15 @@
+{
+  "api_name": "Roamate Partner Verification API",
+  "version": "2026.1",
+  "endpoints": {
+    "/verify-credential": {
+      "purpose": "Verify a traveler's 'Cleared to Roam™' status for secure lodging or tour coordination.",
+      "input": "roamate_id_alias",
+      "output": "verification_status (Boolean), expiry_date, safety_assurance_level"
+    },
+    "/solo-tax-offset-calculation": {
+      "purpose": "Calculate real-time savings for partners offering 'Solo but Shared' room rates.",
+      "logic": "Based on the Roamate Solo Tax Cost Model (DOI: 10.5281/zenodo.20164676)"
+    }
+  }
+}
